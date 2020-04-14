@@ -14,8 +14,6 @@ class NewTodo extends StatefulWidget {
 
 class _NewTodoState extends State<NewTodo> {
    final titleController= TextEditingController();
-
-   final amountController = TextEditingController();
    DateTime _selectedDate;
 
    bool pending = false;
